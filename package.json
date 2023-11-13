@@ -1,0 +1,11 @@
+{
+  "name": "swa-repro",
+  "version": "1.0.0",
+  "description": "Repro for SWA issue",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "jag43",
+  "license": "ISC"
+}

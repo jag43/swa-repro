@@ -1,0 +1,17 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "swa-repro-no-colon": {
+      "appLocation": ".",
+      "outputLocation": ".",
+      "appDevserverUrl": "http://127.0.0.1:3000",
+      "run": "npm run"
+    },
+    "swa-repro-colon": {
+      "appLocation": ".",
+      "outputLocation": ".",
+      "appDevserverUrl": "http://127.0.0.1:3001",
+      "run": "npm run:foobar"
+    }
+  }
+}
